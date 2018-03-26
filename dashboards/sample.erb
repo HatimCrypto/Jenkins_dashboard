@@ -1,0 +1,26 @@
+<% content_for :title do %>Jenkins dashboard<% end %>
+<script type='text/javascript'>
+ $(function() {
+   Dashing.gridsterLayout('[{"col":4,"row":1,"size_x":1,"size_y":1},{"col":3,"row":1,"size_x":1,"size_y":1},{"col":1,"row":1,"size_x":2,"size_y":1}]')
+ });
+ </script>
+<div class="gridster">
+  <ul>
+
+    <li data-row="1" data-col="1" data-sizex="1" data-sizey="1">
+    <div data-id="job1" data-view="JenkinsBuild" data-title="CMC Price" data-description="" data-min="0" data-max="100"></div>
+    </li>
+
+    <li data-row="1" data-col="1" data-sizex="1" data-sizey="1">
+    <div data-id="job2" data-view="JenkinsBuild" data-title="Public API" data-description="" data-min="0" data-max="100"></div>
+    </li>
+
+    <li data-row="1" data-col="1" data-sizex="2" data-sizey="1">
+    <div data-view="clock"></div>
+    </li>
+
+  </ul>
+  
+</div>
+
+
