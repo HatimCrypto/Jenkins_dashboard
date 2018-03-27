@@ -1,0 +1,20 @@
+require 'dashing'
+
+configure do
+
+
+  helpers do
+    JENKINS_URI = URI.parse("http://jenkins.address.edit.me/")
+
+	JENKINS_AUTH = {
+        'name' => 'edit-username',
+        'password' => 'edit-password'
+	}
+  end
+end
+
+map Sinatra::Application.assets_prefix do
+  run Sinatra::Application.sprockets
+end
+
+run Sinatra::Application
