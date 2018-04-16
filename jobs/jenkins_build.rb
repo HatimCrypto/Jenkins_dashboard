@@ -8,6 +8,7 @@ require 'time'
 job_mapping = {
   'job1' => { :job => 'CMC API price comparison'},
   'job2' => { :job => 'Public API tests'},
+  'job3' => { :job => 'ccc-stream'},
 }
 
 def get_number_of_failing_tests(job_name)
