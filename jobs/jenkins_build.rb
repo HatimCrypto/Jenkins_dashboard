@@ -9,7 +9,7 @@ job_mapping = {
   'job1' => { :job => 'CMC API price comparison'},
   'job2' => { :job => 'Public API tests'},
   'job3' => { :job => 'ccc-stream'},
-  'job4' => { :job => 'Web-UI_Tests'},
+  'job4' => { :job => 'ccc-obs'},
   'job5' => { :job => 'ccc-trip'},
   'job6' => { :job => 'Exchange-API'}
 }
