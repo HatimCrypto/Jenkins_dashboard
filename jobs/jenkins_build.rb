@@ -11,7 +11,8 @@ job_mapping = {
   'job3' => { :job => 'ccc-stream'},
   'job4' => { :job => 'ccc-obs'},
   'job5' => { :job => 'ccc-trip'},
-  'job6' => { :job => 'Toplist order'}
+  'job6' => { :job => 'Toplist order'},
+  'job7' => { :job => 'ccc-toolbox-cpp'}
 }
 
 def get_number_of_failing_tests(job_name)
