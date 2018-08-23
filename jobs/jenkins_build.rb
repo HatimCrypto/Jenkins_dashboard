@@ -7,12 +7,13 @@ require 'time'
 # the key of this mapping must be a unique identifier for your job, the according value must be the name that is specified in jenkins
 job_mapping = {
   'job1' => { :job => 'CMC API price comparison'},
-  'job2' => { :job => 'Public API tests'},
+  'job2' => { :job => 'Min API tests'},
   'job3' => { :job => 'ccc-stream'},
   'job4' => { :job => 'ccc-obs'},
   'job5' => { :job => 'ccc-trip'},
   'job6' => { :job => 'Toplist order'},
-  'job7' => { :job => 'ccc-toolbox-cpp'}
+  'job7' => { :job => 'ccc-toolbox-cpp'},
+  'job8' => { :job => 'Dev Auth API tests'},
 }
 
 def get_number_of_failing_tests(job_name)
